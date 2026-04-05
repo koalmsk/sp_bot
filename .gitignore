@@ -1,0 +1,7 @@
+.venv
+win_venv/
+__pycache__/
+mac_venv/
+.env
+cread.json
+.DS_Store
