@@ -5,7 +5,7 @@ class googleSheet:
     def __init__(self):
         self.gc = gspread.service_account(filename="cread.json")
         self.wks = self.gc.open_by_url(
-            "https://docs.google.com/spreadsheets/d/172GQNWe5ncmpejoaufUCQgP_3yL6p8YGR6-a3Zv2pBA/edit?gid=0#gid=0"
+            ""
         ).sheet1
 
     def add_order(
